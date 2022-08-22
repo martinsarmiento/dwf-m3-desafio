@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Martin</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./imagenes/logo.png" alt="logo" class="logo" />
+      <nav class="menu">
+        <div class="barra"></div>
+        <div class="barra"></div>
+        <div class="barra"></div>
+        <p class="navegacion">quien soy</p>
+        <p class="navegacion">servicios</p>
+        <p class="navegacion">escribime</p>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 class="titulo">Bienvenidxs a mi site</h1>
+      <img src="./imagenes/imagen.png" alt="imagen" class="imagen" />
+    </main>
+    <section class="presentacion">
+      <div class="texto-presentacion">
+        <h2 class="titulo-presentacion">Soy Martin</h2>
+        <p class="parrafo-presentacion">
+          Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere
+          tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet
+          lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et sodales
+          semper. Mauris nec tortor lectus. Curabitur nec ultricies dolor.
+        </p>
+      </div>
+      <img src="./imagenes/check.png" alt="check" class="check" />
+    </section>
+    <section class="seccion-servicios">
+      <h2 class="titulo-servicios">Mis servicios</h2>
+      <div class="servicios">
+        <div class="contenedor-servicio">
+          <img src="./imagenes/laptop.png" alt="icon-programador" class="icon-servicio" />
+          <h3 class="titulo-servicio">Programador</h3>
+          <p class="texto-servicio">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere
+            tristique.
+          </p>
+        </div>
+        <div class="contenedor-servicio">
+          <img src="./imagenes/hat.png" alt="icon-estudiante" class="icon-servicio" />
+          <h3 class="titulo-servicio">Estudiante</h3>
+          <p class="texto-servicio">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere
+            tristique.
+          </p>
+        </div>
+        <div class="contenedor-servicio">
+          <img src="./imagenes/field.png" alt="icon-deportista" class="icon-servicio" />
+          <h3 class="titulo-servicio">Deportista</h3>
+          <p class="texto-servicio">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere
+            tristique.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="seccion-formulario">
+      <h3 class="titulo-formulario">Escribime</h3>
+      <form action="/mensajes" method="post" class="formulario">
+        <div class="contenedor-form">
+          <label for="name" class="label-form">NOMBRE</label>
+          <input type="text" id="name" name="user_name" class="input-form" />
+        </div>
+        <div class="contenedor-form">
+          <label for="mail" class="label-form">EMAIL</label>
+          <input type="email" id="mail" name="user_mail" class="input-form" />
+        </div>
+        <div class="contenedor-form">
+          <label for="msg" class="label-form">Mensaje</label>
+          <textarea id="msg" name="user_message" class="textarea-mensaje"></textarea>
+        </div>
+        <div class="contenedor-button">
+          <button type="submit" class="button">Enviar</button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="cont-logo">
+        <img src="./imagenes/logo.png" alt="logo-footer" class="logo-footer" />
+        <p class="texto-logo">© 2021 Martin</p>
+      </div>
+      <div class="contenedor-redes">
+        <div class="redes">
+          <img src="./imagenes/instagram.png" alt="logo-redes" class="logo-redes" />
+          <p class="texto-redes">Instagram</p>
+        </div>
+        <div class="redes">
+          <img src="./imagenes/linkedin.png" alt="logo-redes" class="logo-redes" />
+          <p class="texto-redes">Linkedin</p>
+        </div>
+        <div class="redes">
+          <img src="./imagenes/github.png" alt="logo-redes" class="logo-redes" />
+          <p class="texto-redes">Github</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
